@@ -3,7 +3,7 @@
 这里的redis 是根据书上介绍使用了 一个github开源别人编写的redis 
 最终结果 有bookInfo中一千多条重复的  在bookhot中基本没有重复  
 使用一些方法去重 mongodb去重 
-3.下面提供一种比较简单的巧方法：
+##3.下面提供一种比较简单的巧方法：
 
     将数据导出为JSON格式存档：
     mongoexport.exe -d database_name -c collection_name -o filename.json
