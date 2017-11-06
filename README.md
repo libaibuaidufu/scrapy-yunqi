@@ -5,7 +5,7 @@
 使用一些方法去重 mongodb去重 
 
   
-  ##3.下面提供一种比较简单的巧方法：
+##3.下面提供一种比较简单的巧方法：
 
     将数据导出为JSON格式存档：
     mongoexport.exe -d database_name -c collection_name -o filename.json
